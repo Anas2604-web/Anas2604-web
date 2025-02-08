@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero-section{
+    background-image: url(./WhatsApp\ Image\ 2025-01-21\ at\ 16.04.49_2197cae6.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(88, 117, 148); 
+    min-height: 100vh;
+    max-width: 150vw;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* header */
+header {
+    background-color: #0d17ab48;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C5ADC5;
+    color: white;
+    padding: 15px 50px;
+    width: 100%;
+    margin-right: 40px;
+    font-size: 10 rem;
+    font-weight: bold;
+    
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff9800;
+  }
+  
+  /* Mobile Styles */
+  .mobile-menu-icon {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    height: calc(100vh - 60px);
+    justify-content: center;
+    align-items:flex-start;
+    z-index: 10;
+  }
+  
+  .nav-links.active li {
+    margin: 20px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .mobile-menu-icon {
+      display:inline-block;
+    }
+  }
+  /* header */
+
+html{
+    font-size: 25px;
+}
+.hero-text{
+    color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    font-size: 10px; 
+}
+.hero-text >h1{
+    font-size: 3em;
+      
+}
+.book-button,
+.know-more{
+    background-color: aqua;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.amenities,
+.TYPES{
+    text-align: center;
+    
+}
+.amenities ul{
+    display: inline-block;
+    text-align: left;
+}
+.about-us{ 
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.about-section > h1{
+    text-align: center;
+    margin: 10px 0px;
+    text-decoration: underline;
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-heading,
+.know-more{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+.fa-solid,
+.fa-duotone{
+    margin: 10px;
+}
+.room-images img{
+    height: 400px;
+    width: 400px;
+}
+.room-type-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+h3{
+    align-content: center;
+}
+.room-list h4{
+    font-size: 20px;
+}
+.help-button{
+    background-color: brown;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+}
+.help-button{
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+form{
+    background-color: aqua;
+    border: 2px solid grey;
+    width: max-content;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px 0px;
+}
+.form-container{
+    background-image: url(add4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 21px;
+}
+input,
+.select{
+    padding: 5px;
+    font-size: 15px;
+}
+.form-heading{
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 10px;
+    text-align: center;
+}
+select{
+    padding: 5px;
+}
+button{
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width:500px){
+    .hero-text >h1{
+        font-size: 20px;
+          
+    }
+    p{
+        font-size: 10px;
+    }
+    .room-images img{
+        height: 300px;
+        width: 200px;
+    }
+}
+@media only screen and(min-width:501px) and (max-width:900px){
+    .hero-text >h1{
+        font-size: 30px;
+          
+    }
+    p{
+        font-size: 20px;
+    }
+}

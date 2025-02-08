@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Payment Page - Rental Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #0d17ab48;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .payment-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .payment-section h2 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .form-group label {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .qr-section {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .qr-section img {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .qr-section button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .qr-section button:hover {
+      background-color: #ff9800;
+    }
+
+    .submit-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .submit-button button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .submit-button button:hover {
+      background-color: #218838;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Rental Website</h1>
+    </header>
+
+    <!-- navigation bar -->
+    <nav class="navbar">
+        <!-- <div class="logo">MyWebsite</div> -->
+        <ul class="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./PAYMENT.HTML">Payment</a></li>
+        </ul>
+        <button class="mobile-menu-icon" onclick="toggleMenu()">☰</button>
+    </nav>
+    <!-- navigaion bar ending -->
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Payment Section -->
+    <section class="payment-section">
+      <h2>Payment Details</h2>
+      <form action="/process-payment" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="amount">Amount:</label>
+          <input type="number" id="amount" name="amount" placeholder="Enter Amount" required>
+        </div>
+
+        <div class="qr-section">
+          <h3>Scan to Pay</h3>
+          <img src="https://via.placeholder.com/200x200?text=QR+Code" alt="QR Code">
+          <p>Scan this QR code using your preferred payment app to complete the transaction.</p>
+          <button type="button" onclick="startScanner()">Start Scanner</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Submit Button -->
+    <div class="submit-button">
+      <button type="submit">Submit Payment</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Rental Website. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Function to simulate QR scanner initiation
+    function startScanner() {
+      alert("QR scanner is starting... (This feature requires integration with a camera API).");
+    }
+  </script>
+</body>
+</html>
