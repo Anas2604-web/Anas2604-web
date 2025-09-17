@@ -11,12 +11,20 @@
 ---
 
 ## 🛠️ Tech Stack  
-**Languages:** Java, JavaScript (ES6+), TypeScript, SQL, Python (basic)  
-**Frontend:** React.js, Next.js, Tailwind CSS, GSAP  
-**Backend:** Node.js, Express.js, Firebase, REST APIs  
-**Databases:** MongoDB, PostgreSQL, Supabase  
-**Testing:** Jest, React Testing Library, Vitest  
-**Tools:** Git, GitHub, Vercel, Netlify, Postman, Clerk, Vapi AI  
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+</p>  
 
 ---
 
@@ -30,9 +38,13 @@
 
 ## 📊 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anas2604-web&show_icons=true&theme=radical" alt="GitHub Stats" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Anas2604-web&theme=radical&hide_border=false" alt="GitHub Streak" height="160" />
-</p>
+  <img src="https://github-readme-stats.vercel.app/api?username=Anas2604-web&show_icons=true&theme=radical&cache_seconds=86400" height="160" />
+  <img src="https://streak-stats.demolab.com?user=Anas2604-web&theme=radical&hide_border=false" height="160" />
+</p>  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anas2604-web&layout=compact&theme=radical&cache_seconds=86400" height="160" />
+</p>  
 
 ---
 
