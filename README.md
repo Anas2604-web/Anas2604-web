@@ -39,12 +39,17 @@
 ## 📊 GitHub Stats  
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Anas2604-web&show_icons=true&theme=radical&cache_seconds=86400" height="160" />
-  <img src="https://streak-stats.demolab.com?user=Anas2604-web&theme=radical&hide_border=false" height="160" />
+  
+  <picture>
+    <source srcset="https://streak-stats.demolab.com?user=Anas2604-web&theme=radical&hide_border=false" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=Anas2604-web&theme=radical&hide_border=false" height="160" />
+  </picture>
 </p>  
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anas2604-web&layout=compact&theme=radical&cache_seconds=86400" height="160" />
-</p>  
+</p>
+ 
 
 ---
 
