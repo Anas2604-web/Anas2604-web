@@ -49,7 +49,7 @@ alt="Waving hand animated gif" height="45" width="45"/>, I'm Anas Khan</h1>
 
 ✨ **Motto:** “Code. Build. Break. Learn. Repeat.”  
 
-📬 **Let’s Connect:** [LinkedIn](https://www.linkedin.com/in/anas-khan-47485224a) | [GitHub](https://github.com/Anas2604-web) | [LeetCode](https://leetcode.com/)  
+📬 **Let’s Connect:** [LinkedIn](https://www.linkedin.com/in/anas-khan-47485224a) | [GitHub](https://github.com/Anas2604-web) | [LeetCode](https://leetcode.com/u/Anas_2604)  
 
 ---
 
@@ -145,8 +145,8 @@ alt="Waving hand animated gif" height="45" width="45"/>, I'm Anas Khan</h1>
   <a href="https://www.linkedin.com/in/anas-khan-47485224a" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:annaasskhan6@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/Anas2604-web" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://leetcode.com/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-  <a href="https://anas-portfolio.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfolio-58A6FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/Anas_2604" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+  <a href="https://portfolio-website-sage-eta-55.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-58A6FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
 
 ---
