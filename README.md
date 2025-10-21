@@ -49,6 +49,25 @@ alt="Waving hand animated gif" height="45" width="45"/>, I'm Anas Khan</h1>
 
 ✨ **Motto:** “Code. Build. Break. Learn. Repeat.”  
 
+<!-- =============================== -->
+<!-- 🎖️ Hacktoberfest & Holopin Badges -->
+<!-- =============================== -->
+
+## 🎖️ Hacktoberfest & Holopin Badges  
+
+<p align="center">
+  <a href="https://holopin.io/@anas2604web" target="_blank">
+    <img src="https://holopin.me/anas2604web" alt="@anas2604web's Holopin badges" width="800"/>
+  </a>
+</p>
+
+<p align="center">
+  🦋 Proud participant of <b>Hacktoberfest</b> — contributing to open source & continuous learning.
+</p>
+
+---
+
+
 📬 **Let’s Connect:** [LinkedIn](https://www.linkedin.com/in/anas-khan-47485224a) | [GitHub](https://github.com/Anas2604-web) | [LeetCode](https://leetcode.com/u/Anas_2604)  
 
 ---
