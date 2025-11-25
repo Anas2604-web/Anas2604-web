@@ -101,16 +101,30 @@ alt="Waving hand animated gif" height="45" width="45"/>, I'm Anas Khan</h1>
 <!-- 📊 GitHub Stats -->
 <!-- =============================== -->
 
-## 📊 GitHub Stats  
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anas2604-web&show_icons=true&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anas2604-web&theme=tokyonight" height="160"/>
-</p>  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anas2604-web&layout=compact&theme=tokyonight" height="160" />
+  <!-- GitHub Readme Stats -->
+  <img 
+    src="https://stats-psi-liard.vercel.app/api?username=Anas2604-web&show_icons=true&theme=tokyonight&hide_border=true" 
+    height="160"
+  />
+  
+  <!-- GitHub Streak Stats -->
+  <img 
+    src="https://stats-psi-liard.vercel.app/api?username=Anas2604-web&show_icons=true&theme=tokyonight&show=reviews,prs_merged,prs_merged_percentage&hide_rank=true&hide_border=true" 
+    height="160"
+  />
 </p>
+
+<p align="center">
+  <!-- Most Used Languages -->
+  <img 
+    src="https://stats-psi-liard.vercel.app/api/top-langs/?username=Anas2604-web&layout=compact&theme=tokyonight&hide_border=true" 
+    height="160" 
+  />
+</p>
+
 
 ---
 
