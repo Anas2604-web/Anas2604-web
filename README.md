@@ -110,7 +110,7 @@ public class AnasKhan extends FullStackEngineer {
 | 📋 ACID transactions | Spring `@Transactional` + `@Version` optimistic locking |
 | 🛡️ Replay attack prevention | Signed nonce + 24h freshness window inside encrypted payload |
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web/upi-offline-mesh)
 
 ---
 
@@ -129,7 +129,7 @@ A full-stack developer networking platform — **live on AWS, real users, real p
 | 💳 Payments | Razorpay webhooks with server-side verification |
 | 🚀 Infrastructure | AWS EC2 + Nginx + PM2 + SSL/TLS |
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web/DevConnect)
 [![Live](https://img.shields.io/badge/Live_Demo-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](http://devconnectweb.xyz)
 
 ---
@@ -151,7 +151,7 @@ Question → 768D embedding → Qdrant HNSW search
 - 100+ chunks per multi-document query
 - Citation-aware `/api/upload` and `/api/ask` REST endpoints
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web/RAG)
 
 ---
 
