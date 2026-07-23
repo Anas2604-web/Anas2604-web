@@ -2,17 +2,13 @@
 
 <!-- ══════════════════════ BANNER ══════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3d6b,100:00d4ff&height=200&section=header&text=Anas%20Khan&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Engineer%20%C2%B7%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20React%20%C2%B7%20AI%20Systems&descAlignY=58&descSize=18&descColor=a0c4d8&animation=fadeIn"/>
-
-<!-- ══════════════════════ TYPING ══════════════════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3d6b,100:00d4ff&height=200&section=header&text=Anas%20Khan&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%C2%B7%20Full%20Stack%20Developer%20%C2%B7%20Agentic%20RAG%20Systems&descAlignY=58&descSize=18&descColor=a0c4d8&animation=fadeIn"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=Java+%7C+Spring+Boot+%7C+React.js+%7C+Node.js;Financial-Grade+Distributed+Systems+%F0%9F%8F%A6;RAG+Pipelines+%7C+Vector+DBs+%7C+LLM+Integration+%F0%9F%A4%96;250%2B+DSA+Problems+%7C+AWS+%7C+Production+SaaS+%F0%9F%9A%80;Final+Year+CS+%40+GGITS+Jabalpur+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=Agentic+RAG+%7C+LangGraph+%7C+Vector+DBs+%F0%9F%A4%96;Java+%7C+Spring+Boot+%7C+Python+%7C+FastAPI;React.js+%7C+Next.js+%7C+Node.js+%F0%9F%9A%80;250%2B+DSA+Problems+%7C+Production+SaaS+on+AWS;Final+Year+CS+%40+GGITS+Jabalpur+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
 
 <br/><br/>
-
-<!-- ══════════════════════ BADGES ══════════════════════ -->
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anas-khan-47485224a)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annaasskhan6@gmail.com)
@@ -34,34 +30,42 @@
 
 </div>
 
-```java
-public class AnasKhan extends FullStackEngineer {
+```python
+class AnasKhan:
+    def __init__(self):
+        self.name = "Anas Khan"
+        self.location = "Jabalpur, Madhya Pradesh, India 🇮🇳"
+        self.education = "B.Tech CS @ GGITS (2022–2026)"
+        self.dsa_problems = 250  # LeetCode, and counting
+        self.open_to_work = True
 
-    String   name          = "Anas Khan";
-    String   location      = "Jabalpur, Madhya Pradesh 🇮🇳";
-    String   education     = "B.Tech CS @ GGITS (2022–2026)";
-    String   email         = "annaasskhan6@gmail.com";
-    int      dsaProblems   = 250;   // LeetCode — and counting
-    boolean  openToWork    = true;
+        self.focus = [
+            "Agentic RAG systems — LangGraph ReAct agents, vector retrieval",
+            "Full stack SaaS — Java Spring Boot / Node.js + React/Next.js",
+            "Production infra — AWS EC2, Docker, real deployments, real users",
+        ]
 
-    String[] expertise     = {
-        "Java + Spring Boot — financial-grade backends",
-        "React.js — production SaaS frontends",
-        "AI/RAG pipelines — vector DBs + LLMs",
-        "AWS EC2 — real deployments, real users"
-    };
-
-    String motto = "Code. Build. Ship. Learn. Repeat. 🚀";
-}
+    def motto(self):
+        return "Build agentic systems that ship, not notebooks that don't. 🚀"
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
+### AI / Agentic Systems
+<p align="center">
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white"/>
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+</p>
+
 ### Languages
 <p align="center">
-<img src="https://skillicons.dev/icons?i=java,js,ts,cpp,python&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,cpp&theme=dark" />
 </p>
 
 ### Frontend
@@ -71,7 +75,7 @@ public class AnasKhan extends FullStackEngineer {
 
 ### Backend & Databases
 <p align="center">
-<img src="https://skillicons.dev/icons?i=spring,nodejs,express,mongodb,postgres,supabase&theme=dark" />
+<img src="https://skillicons.dev/icons?i=fastapi,spring,nodejs,express,mongodb,postgres&theme=dark" />
 </p>
 
 ### Cloud, DevOps & Tools
@@ -79,18 +83,65 @@ public class AnasKhan extends FullStackEngineer {
 <img src="https://skillicons.dev/icons?i=aws,docker,nginx,git,github,postman,vercel,linux&theme=dark" />
 </p>
 
-### AI / ML
-<p align="center">
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/Vector%20DBs-6C63FF?style=for-the-badge&logo=databricks&logoColor=white"/>
-</p>
-
 ---
 
 ## 🚀 Featured Projects
+
+---
+
+### 🤖 RepoMind — Agentic RAG for Codebase Q&A
+
+> **FastAPI · LangGraph ReAct Agents · Qdrant · fastembed · Next.js · Clerk**
+
+Paste a GitHub repo URL, ask questions in plain English — get answers with exact file/line citations, not guesses.
+
+```
+Question → ReAct agent decides: search codebase or read full file?
+         → Qdrant vector search → citations attached
+         → streamed answer via SSE
+```
+
+| What | How |
+|------|-----|
+| 🧠 Agentic reasoning | LangGraph ReAct agent — decides *when* and *how* to search, not a fixed pipeline |
+| 📉 Memory fix | Replaced sentence-transformers/PyTorch with **fastembed** — cut footprint ~96% (1.2GB → 50MB), solved OOM crash on free-tier hosting |
+| 📍 Grounded answers | Every response cites exact file path + line numbers |
+| 🚀 Deployed | Backend (Render) + Frontend (Vercel), independently scaled |
+
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web)
+[![Live](https://img.shields.io/badge/Live_Demo-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](https://repomind-nu.vercel.app)
+
+---
+
+### 📄 DevDocs AI — Multi-Tenant B2B RAG SaaS
+
+> **Java · Spring Boot · Next.js · Pinecone · Redis · Groq · AWS EC2**
+
+Companies upload their OpenAPI spec, get an AI chatbot for their developer portal — fully isolated per tenant.
+
+| What | How |
+|------|-----|
+| 🏢 Multi-tenant isolation | 4 layers: JWT claims, ThreadLocal, SQL row filtering, Pinecone namespace isolation |
+| 🎯 Hallucination control | Confidence-threshold filtering + Cohere cross-encoder reranking before answer generation |
+| 💰 Cost optimization | Redis caching (SHA-256 query hashing) — cut LLM cost **~65%** |
+| ⚡ Streaming | SSE-streamed LLM responses, production Nginx + CI/CD on AWS EC2 |
+
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web/devdocs-ai)
+[![Live](https://img.shields.io/badge/Live_Demo-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](https://devdocsai.online)
+
+---
+
+### 🧠 AgenticRAG — Agentic Document Intelligence Platform
+
+> **Next.js · LangGraph · LangChain · Qdrant · MongoDB · Groq · NextAuth.js**
+
+An agent that doesn't just retrieve once — it decides when to search again, rephrase, or switch retrieval strategy.
+
+- Full reasoning trace panel — see every tool call the agent makes, with chunk-level citations
+- 3 retrieval tools (semantic search, query rewriter, metadata-filtered search)
+- Sub-5s response times, multi-session history via MongoDB + NextAuth.js
+
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web/RAG)
 
 ---
 
@@ -131,27 +182,6 @@ A full-stack developer networking platform — **live on AWS, real users, real p
 
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web/DevConnect)
 [![Live](https://img.shields.io/badge/Live_Demo-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](http://devconnectweb.xyz)
-
----
-
-### 🤖 Agentic RAG — LLM Knowledge Retrieval
-
-> **Next.js · LangChain · Qdrant · Ollama · HuggingFace · Vector Embeddings**
-
-Ask questions. Get answers grounded in **your documents** — not hallucinations.
-
-```
-Question → 768D embedding → Qdrant HNSW search
-         → top-k chunks retrieved → LLM generates answer
-         → cited response with source chunks
-```
-
-- Full pipeline: ingestion → embeddings → vector storage → retrieval → generation
-- Hybrid ReAct agent + fallback RAG for multi-provider LLM compatibility  
-- 100+ chunks per multi-document query
-- Citation-aware `/api/upload` and `/api/ask` REST endpoints
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web/RAG)
 
 ---
 
@@ -243,8 +273,8 @@ Full REST API + live benchmark mode + PCA scatter plot + RAG pipeline via Ollama
 
 <br/>
 
-> 💼 Open to: **Full Stack · Backend · Java + Spring Boot · AI/ML roles**
-> 📍 Based in Jabalpur · Available May 2026 · Responds within 24h
+> 💼 Open to: **AI Engineer · Full Stack Developer · Backend (Java/Python)**
+> 📍 Based in Jabalpur, open to relocation · Responds within 24h
 
 <br/>
 
