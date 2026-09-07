@@ -14,7 +14,7 @@
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annaasskhan6@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Anas_2604)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-website-sage-eta-55.vercel.app/)
+[![AskAnas](https://img.shields.io/badge/Talk_to_my_AI_Agent-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](https://askanas.vercel.app)
 
 <br/>
 
@@ -49,6 +49,9 @@ class AnasKhan:
         return "Build agentic systems that ship, not notebooks that don't. 🚀"
 ```
 
+> 🤖 **Don't just read about my work — ask my AI agent about it.**
+> [**askanas.vercel.app**](https://askanas.vercel.app) is a live LangGraph agent, grounded in my real project docs via Qdrant, with LLM-as-judge guardrails and full LangSmith tracing. Ask it anything — "what's his best project," "why fastembed over PyTorch," "is he ready for an AI engineer role." It answers honestly, cites its sources, and refuses to make things up.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -61,6 +64,7 @@ class AnasKhan:
 <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white"/>
 <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white"/>
 <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
 </p>
 
 ### Languages
@@ -75,7 +79,7 @@ class AnasKhan:
 
 ### Backend & Databases
 <p align="center">
-<img src="https://skillicons.dev/icons?i=fastapi,spring,nodejs,express,mongodb,postgres&theme=dark" />
+<img src="https://skillicons.dev/icons?i=fastapi,spring,nodejs,express,mongodb,postgres,redis&theme=dark" />
 </p>
 
 ### Cloud, DevOps & Tools
@@ -89,7 +93,34 @@ class AnasKhan:
 
 ---
 
-### 🤖 RepoMind — Agentic RAG for Codebase Q&A
+### 🤖 AskAnas — Live AI Agent Portfolio
+
+> **FastAPI · LangGraph ReAct Agents · Qdrant Cloud · Groq · Next.js 14 · LangSmith · PostHog**
+
+An AI agent that replaces a static resume — recruiters talk to it instead of reading a PDF. Not a wrapped chatbot: a full agentic RAG pipeline with production-grade guardrails and observability.
+
+```
+Question → LLM-as-judge input guardrail (blocks injection, off-topic, PII-extraction)
+         → LangGraph ReAct agent decides: semantic search or deterministic listing?
+         → Qdrant Cloud retrieval → cited, grounded answer
+         → streamed token-by-token via SSE → output guardrail screens for drift
+         → every step traced live in LangSmith
+```
+
+| What | How |
+|------|-----|
+| 🧠 Real agentic reasoning | LangGraph ReAct agent routes between semantic retrieval and deterministic tools — provably not a single LLM call, verifiable via live LangSmith traces |
+| 🛡️ LLM-as-judge guardrails | Input + output screening for prompt injection, off-topic drift, and info leaks — fails open, not closed, so a judge hiccup never blocks real users |
+| 📊 Real eval numbers | 15-query LLM-as-judge eval suite — **4.4/5 groundedness, 4.6/5 context relevance** — after catching and fixing a retrieval-mismatch bug in the eval harness itself |
+| 🔭 Full observability | Every request traced in LangSmith (tool calls, retrieval, latency, cost); real engagement tracked in PostHog |
+| 🚀 Deployed | Vercel (frontend) + Render (backend) + Qdrant Cloud, with scheduled uptime monitoring |
+
+[![Live](https://img.shields.io/badge/Talk_to_it_Live-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](https://askanas.vercel.app)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web)
+
+---
+
+### 🧭 RepoMind — Agentic RAG for Codebase Q&A
 
 > **FastAPI · LangGraph ReAct Agents · Qdrant · fastembed · Next.js · Clerk**
 
@@ -108,7 +139,7 @@ Question → ReAct agent decides: search codebase or read full file?
 | 📍 Grounded answers | Every response cites exact file path + line numbers |
 | 🚀 Deployed | Backend (Render) + Frontend (Vercel), independently scaled |
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web)
+[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web/repomind)
 [![Live](https://img.shields.io/badge/Live_Demo-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](https://repomind-nu.vercel.app)
 
 ---
@@ -185,24 +216,6 @@ A full-stack developer networking platform — **live on AWS, real users, real p
 
 ---
 
-### 🧮 VectorDB-Java — Vector Database from Scratch
-
-> **Java 17 · Javalin · HNSW · KD-Tree · Brute Force · Ollama**
-
-Built a **production-grade vector database engine in pure Java** — every algorithm from scratch, no shortcuts.
-
-| Algorithm | Complexity | Method |
-|-----------|-----------|--------|
-| **HNSW** | O(log N) approx | Multilayer small-world graph — same as Pinecone, Chroma, Weaviate |
-| **KD-Tree** | O(log N) exact | Binary space partitioning with axis-aligned pruning |
-| **Brute Force** | O(N·d) exact | Max-heap baseline for correctness benchmarking |
-
-Full REST API + live benchmark mode + PCA scatter plot + RAG pipeline via Ollama.
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web)
-
----
-
 ## 🏆 Achievements
 
 ```
@@ -213,6 +226,7 @@ Full REST API + live benchmark mode + PCA scatter plot + RAG pipeline via Ollama
 🔥  250+ DSA problems on LeetCode   — 140+ day streak maintained
 ⭐  Appreciated by JS Mastery        — Adrian Hajdin, for advanced GSAP project
 🚀  Production systems               — Real users, real AWS, real payments
+🤖  Shipped a live agentic AI system — guardrails, evals, and tracing, not just a demo
 ```
 
 ---
@@ -269,7 +283,7 @@ Full REST API + live benchmark mode + PCA scatter plot + RAG pipeline via Ollama
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:annaasskhan6@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Anas2604-web)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Anas_2604)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-website-sage-eta-55.vercel.app/)
+[![AskAnas](https://img.shields.io/badge/Talk_to_my_AI_Agent-00D4FF?style=for-the-badge&logo=vercel&logoColor=black)](https://askanas.vercel.app)
 
 <br/>
 
